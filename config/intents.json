@@ -1,0 +1,433 @@
+{
+  "intents": [
+    {
+      "intent_id": "leave_policy",
+      "name": "Leave Policy",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "What is the leave policy?",
+        "Tell me about leave rules",
+        "How much leave can I take?",
+        "What are leave types available?",
+        "Leave policy details",
+        "Am I eligible for sick leave?",
+        "Can I take sick leave?",
+        "What leave am I applicable for?",
+        "Am I applicable to take maternity leave?"
+      ]
+    },
+    {
+      "intent_id": "holidays",
+      "name": "Company Holidays",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "When are the company holidays?",
+        "What are the holidays this year?",
+        "Tell me about company holidays",
+        "Holiday calendar",
+        "When is the next holiday?"
+      ]
+    },
+    {
+      "intent_id": "hr_contact",
+      "name": "HR Contact",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "How do I contact HR?",
+        "What is the HR contact number?",
+        "HR phone number",
+        "How to reach HR?",
+        "HR contact details"
+      ]
+    },
+    {
+      "intent_id": "company_info",
+      "name": "Company Information",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "Tell me about the company",
+        "What does the company do?",
+        "Company background",
+        "Who are we?",
+        "Company mission and vision"
+      ]
+    },
+    {
+      "intent_id": "benefits",
+      "name": "Employee Benefits",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "What benefits are available?",
+        "Tell me about employee benefits",
+        "Health insurance information",
+        "What perks do we get?",
+        "Benefits package details"
+      ]
+    },
+    {
+      "intent_id": "leave_balance",
+      "name": "My Leave Balance",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "How many leaves do I have?",
+        "What is my leave balance?",
+        "My remaining leaves",
+        "How many paid leaves left?",
+        "Check my leave balance"
+      ]
+    },
+    {
+      "intent_id": "check_leave_eligibility",
+      "name": "Check Leave Eligibility",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Am I applicable to take sick leave?",
+        "Can I take sick leave?",
+        "Am I eligible for casual leave?",
+        "Do I have sick leave available?",
+        "Can I take earned leave?",
+        "Am I eligible for maternity leave?",
+        "Check my leave eligibility for sick leave"
+      ]
+    },
+    {
+      "intent_id": "my_manager",
+      "name": "My Manager",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Who is my manager?",
+        "What is my manager's name?",
+        "My reporting manager",
+        "Who do I report to?",
+        "Manager information"
+      ]
+    },
+    {
+      "intent_id": "my_department",
+      "name": "My Department",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "What is my department?",
+        "Which department do I work in?",
+        "My team information",
+        "Department details",
+        "Where do I work?"
+      ]
+    },
+    {
+      "intent_id": "attendance",
+      "name": "My Attendance",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "What is my attendance record?",
+        "How many days have I worked?",
+        "My attendance report",
+        "Show my attendance",
+        "Days present this month"
+      ]
+    },
+    {
+      "intent_id": "leave_request",
+      "name": "Apply for Leave",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "I want to apply for leave",
+        "I want to take leave",
+        "Apply for 3 days of sick leave",
+        "Request time off from Jan 15 to Jan 17",
+        "Submit leave application for tomorrow",
+        "I need to take leave on Monday"
+      ]
+    },
+    {
+      "intent_id": "salary_info",
+      "name": "Salary Information",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "What is my salary?",
+        "Show my salary details",
+        "My payslip information",
+        "Salary breakdown",
+        "When will I get paid?"
+      ]
+    },
+    {
+      "intent_id": "payslip",
+      "name": "Show Payslip",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Show my payslip for this month",
+        "Show my payslip for December",
+        "What is my payslip?",
+        "Display my salary slip",
+        "Get my latest payslip"
+      ]
+    },
+    {
+      "intent_id": "tax_info",
+      "name": "Tax Calculation",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Show my tax calculation for this year",
+        "What is my tax deduction?",
+        "Tax information for 2025",
+        "How much tax have I paid?",
+        "Tax details"
+      ]
+    },
+    {
+      "intent_id": "leave_history",
+      "name": "Leave History",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Show my leave history for this year",
+        "What leaves have I taken?",
+        "My leave records",
+        "Display my leave history",
+        "Leave approval status"
+      ]
+    },
+    {
+      "intent_id": "leave_approval",
+      "name": "Leave Approval Status",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Has my leave been approved?",
+        "What is my leave status?",
+        "Check leave approval",
+        "Is my leave request approved?",
+        "Show pending leaves"
+      ]
+    },
+    {
+      "intent_id": "birthday_anniversary",
+      "name": "Birthday & Anniversary Reminders",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Show birthday and anniversary reminders",
+        "When is my birthday?",
+        "What is my work anniversary?",
+        "Show my important dates",
+        "Birthday and anniversary information"
+      ]
+    },
+    {
+      "intent_id": "skills",
+      "name": "My Skills",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "What are my skills?",
+        "Show my skills as per HRMS",
+        "My skill set",
+        "What skills do I have?",
+        "Display my skills"
+      ]
+    },
+    {
+      "intent_id": "appraisal_cycle",
+      "name": "Appraisal Cycle Information",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "When is the appraisal cycle starting?",
+        "What is my appraisal schedule?",
+        "Appraisal cycle dates",
+        "When is performance review?",
+        "Appraisal information"
+      ]
+    },
+    {
+      "intent_id": "goals_objectives",
+      "name": "Goals & Objectives",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Show my Goals and Objectives for this year",
+        "What are my goals?",
+        "My performance objectives",
+        "Show my OKRs",
+        "What are my targets?"
+      ]
+    },
+    {
+      "intent_id": "update_phone",
+      "name": "Update Phone Number",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Update my phone number",
+        "Change my phone",
+        "I want to update my phone number",
+        "Can you help me change my phone number?",
+        "Update contact number",
+        "Modify my phone",
+        "Update my mobile number"
+      ]
+    },
+    {
+      "intent_id": "enter_phone_number",
+      "name": "Enter Phone Number",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "My new phone number is {phone_number}",
+        "It is {phone_number}",
+        "{phone_number}",
+        "The number is {phone_number}"
+      ]
+    },
+    {
+      "intent_id": "update_emergency_contact",
+      "name": "Update Emergency Contact",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "Change my emergency contact",
+        "Update emergency contact",
+        "I need to change my emergency contact info",
+        "Can you help me update my emergency contact?",
+        "Modify emergency contact details",
+        "Update my emergency contact number",
+        "Change emergency contact"
+      ]
+    },
+    {
+      "intent_id": "enter_emergency_contact",
+      "name": "Enter Emergency Contact",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "The new emergency contact is {phone_number}",
+        "It's {phone_number}",
+        "The number is {phone_number}",
+        "Please update it to {phone_number}"
+      ]
+    },
+    {
+      "intent_id": "show_emergency_contact",
+      "name": "Show Emergency Contact",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "show my emergency contact",
+        "what is my emergency contact",
+        "display my emergency contact",
+        "my emergency contact number",
+        "emergency contact details",
+        "who is my emergency contact"
+      ]
+    },
+
+    {
+      "intent_id": "salary_info",
+      "name": "Salary Information",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "What is my salary?",
+        "Show my salary details",
+        "My payslip information",
+        "Salary breakdown",
+        "When will I get paid?"
+      ]
+    },
+    {
+      "intent_id": "greeting",
+      "name": "Greeting",
+      "category": "general",
+      "is_private": false,
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you",
+        "how do you do",
+        "nice to meet you",
+        "greetings",
+        "hey there",
+        "hi there",
+        "hello there",
+        "good day",
+        "morning",
+        "afternoon",
+        "evening",
+        "sup",
+        "yo",
+        "hiya"
+      ],
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you",
+        "how do you do",
+        "nice to meet you",
+        "greetings",
+        "hey there",
+        "hi there",
+        "hello there",
+        "good day",
+        "morning",
+        "afternoon",
+        "evening",
+        "sup",
+        "yo",
+        "hiya"
+      ]
+    },
+    {
+      "intent_id": "my_profile",
+      "name": "My Profile Information",
+      "category": "employee_specific",
+      "is_private": true,
+      "examples": [
+        "what is my name",
+        "who am I",
+        "my profile",
+        "my details",
+        "my information",
+        "tell me about myself",
+        "what is my employee id",
+        "show my profile"
+      ]
+    },
+    {
+      "intent_id": "general_inquiry",
+      "name": "General Inquiry",
+      "category": "general",
+      "is_private": false,
+      "examples": [
+        "help",
+        "what can you do",
+        "how can you help me",
+        "what services do you provide",
+        "tell me what you can do",
+        "what are your capabilities"
+      ]
+    }
+  ]
+}

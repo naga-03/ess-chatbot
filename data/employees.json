@@ -1,0 +1,309 @@
+{
+  "employees": [
+    {
+      "employee_id": "E001",
+      "name": "Alice Johnson",
+      "department": "Engineering",
+      "manager": "Bob Smith",
+      "phone": "9876543210",
+      "emergency_contact": {
+        "name": "John Johnson",
+        "phone": "+1-555-5101",
+        "relationship": "Father"
+      },
+      "birthday": "1995-05-15",
+      "anniversary": "2020-01-10",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "SQL"
+      ],
+      "leave_balance": {
+        "sick": 8,
+        "casual": 3,
+        "earned": 12,
+        "total": 23
+      },
+      "leave_history": [
+        {
+          "leave_id": "L001",
+          "type": "casual",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-22",
+          "status": "approved",
+          "days": 3
+        },
+        {
+          "leave_id": "L002",
+          "type": "sick",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-15",
+          "status": "approved",
+          "days": 1
+        }
+      ],
+      "payslips": [
+        {
+          "month": "December 2025",
+          "gross_salary": 6250,
+          "deductions": 1200,
+          "net_salary": 5050,
+          "date": "2025-12-31"
+        },
+        {
+          "month": "November 2025",
+          "gross_salary": 6250,
+          "deductions": 1200,
+          "net_salary": 5050,
+          "date": "2025-11-30"
+        }
+      ],
+      "tax_calculation": {
+        "year": 2025,
+        "gross_income": 75000,
+        "tax_deducted": 14400,
+        "tax_rate": "19.2%"
+      },
+      "appraisal_cycle": "Q1 2026",
+      "goals": [
+        "Complete 2 major projects",
+        "Improve code quality metrics",
+        "Mentor 1 junior developer"
+      ],
+      "attendance_days": 220,
+      "salary": 75000,
+      "password": "pass123"
+    },
+    {
+      "employee_id": "E002",
+      "name": "Bob Smith",
+      "department": "Engineering",
+      "manager": "Carol White",
+      "phone": "+91 6756548044",
+      "emergency_contact": {
+        "name": "Sarah Smith",
+        "phone": "+91 6756548044",
+        "relationship": "Spouse"
+      },
+      "birthday": "1992-08-22",
+      "anniversary": "2018-03-15",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "leave_balance": {
+        "sick": 6,
+        "casual": 2,
+        "earned": 8,
+        "total": 16
+      },
+      "leave_history": [
+        {
+          "leave_id": "L003",
+          "type": "earned",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-14",
+          "status": "approved",
+          "days": 5
+        }
+      ],
+      "payslips": [
+        {
+          "month": "December 2025",
+          "gross_salary": 7083,
+          "deductions": 1350,
+          "net_salary": 5733,
+          "date": "2025-12-31"
+        }
+      ],
+      "tax_calculation": {
+        "year": 2025,
+        "gross_income": 85000,
+        "tax_deducted": 16320,
+        "tax_rate": "19.2%"
+      },
+      "appraisal_cycle": "Q1 2026",
+      "goals": [
+        "Lead infrastructure modernization",
+        "Improve system performance"
+      ],
+      "attendance_days": 225,
+      "salary": 85000,
+      "password": "pass456"
+    },
+    {
+      "employee_id": "E003",
+      "name": "Carol White",
+      "department": "HR",
+      "manager": "David Brown",
+      "phone": "+1-555-0103",
+      "emergency_contact": {
+        "name": "Mike White",
+        "phone": "+1-555-5103",
+        "relationship": "Brother"
+      },
+      "birthday": "1998-03-10",
+      "anniversary": "2019-06-01",
+      "skills": [
+        "HR Management",
+        "Recruitment",
+        "Employee Relations",
+        "Payroll"
+      ],
+      "leave_balance": {
+        "sick": 10,
+        "casual": 4,
+        "earned": 15,
+        "total": 29
+      },
+      "leave_history": [],
+      "payslips": [
+        {
+          "month": "December 2025",
+          "gross_salary": 5833,
+          "deductions": 1100,
+          "net_salary": 4733,
+          "date": "2025-12-31"
+        }
+      ],
+      "tax_calculation": {
+        "year": 2025,
+        "gross_income": 70000,
+        "tax_deducted": 13440,
+        "tax_rate": "19.2%"
+      },
+      "appraisal_cycle": "Q1 2026",
+      "goals": [
+        "Improve recruitment process",
+        "Enhance employee engagement"
+      ],
+      "attendance_days": 230,
+      "salary": 70000,
+      "password": "pass789"
+    },
+    {
+      "employee_id": "E004",
+      "name": "David Brown",
+      "department": "Management",
+      "manager": null,
+      "phone": "+1-555-0104",
+      "emergency_contact": {
+        "name": "Lisa Brown",
+        "phone": "+1-555-5104",
+        "relationship": "Spouse"
+      },
+      "birthday": "1988-11-05",
+      "anniversary": "2015-01-20",
+      "skills": [
+        "Management",
+        "Strategic Planning",
+        "Leadership"
+      ],
+      "leave_balance": {
+        "sick": 10,
+        "casual": 5,
+        "earned": 20,
+        "total": 35
+      },
+      "leave_history": [],
+      "payslips": [
+        {
+          "month": "December 2025",
+          "gross_salary": 7917,
+          "deductions": 1500,
+          "net_salary": 6417,
+          "date": "2025-12-31"
+        }
+      ],
+      "tax_calculation": {
+        "year": 2025,
+        "gross_income": 95000,
+        "tax_deducted": 18240,
+        "tax_rate": "19.2%"
+      },
+      "appraisal_cycle": "Q1 2026",
+      "goals": [
+        "Achieve revenue targets",
+        "Build high-performing team"
+      ],
+      "attendance_days": 235,
+      "salary": 95000,
+      "password": "pass000"
+    },
+    {
+      "employee_id": "E005",
+      "name": "Emma Davis",
+      "department": "Sales",
+      "manager": "Bob Smith",
+      "phone": "+1-555-0105",
+      "emergency_contact": {
+        "name": "Tom Davis",
+        "phone": "+1-555-5105",
+        "relationship": "Father"
+      },
+      "birthday": "2000-07-20",
+      "anniversary": "2023-09-01",
+      "skills": [
+        "Sales",
+        "Customer Relations",
+        "Negotiation",
+        "CRM"
+      ],
+      "leave_balance": {
+        "sick": 7,
+        "casual": 2,
+        "earned": 10,
+        "total": 19
+      },
+      "leave_history": [
+        {
+          "leave_id": "L004",
+          "type": "casual",
+          "start_date": "2025-12-25",
+          "end_date": "2025-12-26",
+          "status": "pending",
+          "days": 2
+        }
+      ],
+      "payslips": [
+        {
+          "month": "December 2025",
+          "gross_salary": 5417,
+          "deductions": 1000,
+          "net_salary": 4417,
+          "date": "2025-12-31"
+        }
+      ],
+      "tax_calculation": {
+        "year": 2025,
+        "gross_income": 65000,
+        "tax_deducted": 12480,
+        "tax_rate": "19.2%"
+      },
+      "appraisal_cycle": "Q2 2026",
+      "goals": [
+        "Increase sales by 20%",
+        "Improve customer satisfaction"
+      ],
+      "attendance_days": 215,
+      "salary": 65000,
+      "password": "pass111"
+    }
+  ],
+  "company_info": {
+    "name": "TechCorp Inc.",
+    "mission": "Innovate and deliver excellence in software solutions",
+    "hr_phone": "+1-555-0123",
+    "hr_email": "hr@techcorp.com",
+    "holidays": [
+      "2025-01-01",
+      "2025-07-04",
+      "2025-12-25",
+      "2025-12-26"
+    ]
+  }
+}
